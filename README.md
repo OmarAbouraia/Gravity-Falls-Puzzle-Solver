@@ -70,21 +70,21 @@ The project is divided into **two milestones**:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/Gravity-Falls-Puzzle-Solver.git
+git clone https://github.com/OmarAbouraia/Gravity-Falls-Puzzle-Solver.git
 cd Gravity-Falls-Puzzle-Solver
 
 # 2. Install dependencies
 pip install opencv-python numpy matplotlib scikit-image
 
 # 3. Run Milestone 1 pipeline (preprocessing & feature extraction)
-python Milestone-1/code/preprocess_and_extract.py
+python Gravity Falls Project_Team 4_MS1/Gravity Falls_MS1.py
 
 # 4. Run Milestone 2 pipeline (edge matching & puzzle assembly)
-python Milestone-2/code/assemble_puzzle.py
+python Gravity Falls_Team 4_MS2/Gravity Falls_Milestone2.ipynb
 
 # 5. Check outputs
-# Preprocessed tiles, edge maps, and contours: Milestone-1/output/
-# Assembled puzzles and visualizations: Milestone-2/output/
+Preprocessed tiles, edge maps, and contours: Gravity Falls Project_Team 4_MS1/outputs_m1/
+Assembled puzzles and visualizations: Gravity Falls_Team 4_MS2/Gravity Falls_MS2_Input/puzzle_2x2 or puzzle_4x4 or puzzle_8x8
 
 
 
